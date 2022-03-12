@@ -1,0 +1,44 @@
+.topfoot {
+    background: #5474FD;
+    overflow: hidden;
+  }
+  .topfoot a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topfoot a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topfoot a.active {
+    color: white;
+  }
+  .topfoot .icon {
+    display: none;
+  }
+  @media screen and (max-width: 600px) {
+    .topfoot a:not(:first-child) {display: none;}
+    .topfoot a.icon {
+    float: right;
+    display: block;
+    }
+    }
+  @media screen and (max-width: 600px) {
+    .topfoot.responsive {position: relative;}
+    .topfoot.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    top: 0;
+    }
+    .topfoot.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
