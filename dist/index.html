@@ -7,8 +7,10 @@
     <title>Bhromaon</title>
     <script src="https://kit.fontawesome.com/cfbaff7cd6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    
        <div class="container-page1">
            <div class="logo">
                <h1 class="text__logo">Bhromaon</h1>
@@ -18,20 +20,24 @@
                 <input type="text" name="text" id="text" class="input-field" placeholder="Search Your Travel Destination">
                 <button class="send-btn">Search<i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
+            <div class="scroll">
+                <button class="scroll-btn">Scroll Down<br><i class="fa-solid fa-arrow-down"></i></button>
+            </div>
        </div>
+      
+       <script src="script/script.js"></script>
 </body>
 <footer>
-    <div class="logo__foter">
-        <h1 class="text-logo__foter">Bhromaon</h1>
-    </div>
-    <div class="topfoot" id="myTopfoot">
-        <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+    <nav>
+        <div class="navbar" id="myNavbar">
+            <h1 class="text-logofoot">Bhromaon</h1>
+            <a href="#">WHO WE ARE</a>
+            <a href="#">WHAT WE</a>
+            <a href="#">TRAVEL WITH US</a>
+            <a href="#">CONTACT US</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
+    </nav>
 </footer>
+
 </html>

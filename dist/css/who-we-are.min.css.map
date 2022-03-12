@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/who-we-are.scss"
+    ],
+    "names": [],
+    "file": "who-we-are.min.css"
+}

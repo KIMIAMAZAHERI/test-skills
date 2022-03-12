@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-position-x: center;
     background-attachment: fixed;
-    min-height: 200vh;
+    min-height: 100vh;
 }
 .logo{
     text-align: center;
@@ -52,6 +52,9 @@ body{
     letter-spacing: 2.8px;
     color: #999999;
 }
+.input-field:hover{
+    background-color: #999999;
+}
 .send-btn{
     background: #5474FD;
     border: 2px solid #FFFFFF;
@@ -63,7 +66,19 @@ body{
     color: #FFFFFF;
     width: 100px;
 }
+.send-btn:hover{
+    background-color: #768cee;
+}
 .fa-magnifying-glass{
     padding-left: 2px;
     padding-right: 10px;
+}
+.scroll{
+    text-align: center;
+    margin-top: 10%;
+}
+.scroll-btn{
+    border: none;
+    background: none;
+    color: #FFFFFF;
 }
