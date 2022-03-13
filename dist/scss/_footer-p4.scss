@@ -1,0 +1,42 @@
+footer{
+    background-color: #232323;
+    overflow: hidden;  
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+.logo__text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+    text-align: center;
+    margin-top: 2%;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.logo__subtext{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+}
+.social{
+    border: none;
+    background-color:#232323;
+    color: #FFFFFF;
+}
+.social:hover{
+   color: #ee8476;
+}

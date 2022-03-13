@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,AAAA,CACA,gBAAgB,CAAE,mCAAmC,CACrD,iBAAiB,CAAE,SAAS,CAC5B,eAAe,CAAC,SAAS,CACzB,KAAK,CAAE,IAAI,CACX,qBAAqB,CAAE,MAAM,CAC7B,qBAAqB,CAAE,KAAK,CAC5B,UAAU,CAAE,KAAK,CACpB",
+    "sources": [
+        "../scss/travel-with-us.scss",
+        "../scss/_body-p3.scss"
+    ],
+    "names": [],
+    "file": "travel-with-us.min.css"
+}
